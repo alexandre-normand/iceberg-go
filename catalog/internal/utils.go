@@ -30,10 +30,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/apache/iceberg-go"
-	"github.com/apache/iceberg-go/catalog"
-	"github.com/apache/iceberg-go/io"
-	"github.com/apache/iceberg-go/table"
+	"github.com/alexandre-normand/iceberg-go"
+	"github.com/alexandre-normand/iceberg-go/catalog"
+	"github.com/alexandre-normand/iceberg-go/io"
+	"github.com/alexandre-normand/iceberg-go/table"
 	"github.com/google/uuid"
 )
 

@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/apache/iceberg-go"
-	"github.com/apache/iceberg-go/table"
+	"github.com/alexandre-normand/iceberg-go"
+	"github.com/alexandre-normand/iceberg-go/table"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

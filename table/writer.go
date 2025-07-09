@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"iter"
 
+	"github.com/alexandre-normand/iceberg-go"
+	"github.com/alexandre-normand/iceberg-go/config"
+	"github.com/alexandre-normand/iceberg-go/io"
+	"github.com/alexandre-normand/iceberg-go/table/internal"
 	"github.com/apache/arrow-go/v18/arrow"
-	"github.com/apache/iceberg-go"
-	"github.com/apache/iceberg-go/config"
-	"github.com/apache/iceberg-go/io"
-	"github.com/apache/iceberg-go/table/internal"
 	"github.com/google/uuid"
 )
 

@@ -35,11 +35,11 @@ If you don't have a go.mod file, create it with `go mod init gin`.
 1. Download and install it:
 
 ```sh
-go get -u github.com/apache/iceberg-go
+go get -u github.com/alexandre-normand/iceberg-go
 ```
 
 2. Import it in your code:
 
 ```go
-import "github.com/apache/iceberg-go"
+import "github.com/alexandre-normand/iceberg-go"
 ```

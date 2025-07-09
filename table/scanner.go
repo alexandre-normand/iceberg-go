@@ -26,10 +26,10 @@ import (
 	"slices"
 	"sync"
 
+	"github.com/alexandre-normand/iceberg-go"
+	"github.com/alexandre-normand/iceberg-go/io"
 	"github.com/apache/arrow-go/v18/arrow"
 	"github.com/apache/arrow-go/v18/arrow/array"
-	"github.com/apache/iceberg-go"
-	"github.com/apache/iceberg-go/io"
 	"golang.org/x/sync/errgroup"
 )
 

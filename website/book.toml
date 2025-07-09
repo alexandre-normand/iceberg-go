@@ -24,7 +24,7 @@ title = "Iceberg Golang"
 
 [output.html]
 cname = "go.iceberg.apache.org"
-edit-url-template = "https://github.com/apache/iceberg-go/edit/main/website/{path}"
+edit-url-template = "https://github.com/alexandre-normand/iceberg-go/edit/main/website/{path}"
 git-repository-icon = "fa-github"
-git-repository-url = "https://github.com/apache/iceberg-go"
+git-repository-url = "https://github.com/alexandre-normand/iceberg-go"
 no-section-label = true

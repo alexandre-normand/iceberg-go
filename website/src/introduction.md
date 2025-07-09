@@ -21,7 +21,7 @@
 
 Iceberg Go is a go-native implementation for accessing iceberg tables.
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/apache/iceberg-go.svg)](https://pkg.go.dev/github.com/apache/iceberg-go)
+[![Go Reference](https://pkg.go.dev/badge/github.com/alexandre-normand/iceberg-go.svg)](https://pkg.go.dev/github.com/alexandre-normand/iceberg-go)
 
 `iceberg` is a Golang implementation of the [Iceberg table spec](https://iceberg.apache.org/spec/).
 

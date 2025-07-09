@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/alexandre-normand/iceberg-go"
 	"github.com/apache/arrow-go/v18/arrow/compute/exprs"
-	"github.com/apache/iceberg-go"
 	"github.com/substrait-io/substrait-go/v3/expr"
 	"github.com/substrait-io/substrait-go/v3/extensions"
 	"github.com/substrait-io/substrait-go/v3/types"
@@ -34,7 +34,7 @@ var funcsetYAML string
 
 var (
 	collection = extensions.GetDefaultCollectionWithNoError()
-	funcSetURI = "https://github.com/apache/iceberg-go/blob/main/table/substrait/functions_set.yaml"
+	funcSetURI = "https://github.com/alexandre-normand/iceberg-go/blob/main/table/substrait/functions_set.yaml"
 )
 
 func init() {

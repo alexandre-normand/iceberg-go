@@ -30,8 +30,8 @@ example of how to create a `RestCatalog`:
 ```go
 import (
     "context"
-    "github.com/apache/iceberg-go/catalog"
-    "github.com/apache/iceberg-go/catalog/rest"
+    "github.com/alexandre-normand/iceberg-go/catalog"
+    "github.com/alexandre-normand/iceberg-go/catalog/rest"
 )
 
 // Create a REST catalog
@@ -74,8 +74,8 @@ You can also use SQL-based catalogs:
 
 ```go
 import (
-    "github.com/apache/iceberg-go/catalog"
-    "github.com/apache/iceberg-go/io"
+    "github.com/alexandre-normand/iceberg-go/catalog"
+    "github.com/alexandre-normand/iceberg-go/io"
 )
 
 // Create a SQLite catalog
@@ -100,7 +100,7 @@ For AWS Glue integration:
 
 ```go
 import (
-    "github.com/apache/iceberg-go/catalog/glue"
+    "github.com/alexandre-normand/iceberg-go/catalog/glue"
     "github.com/aws/aws-sdk-go-v2/config"
 )
 
@@ -134,9 +134,9 @@ You can use following code to create a table:
 
 ```go
 import (
-    "github.com/apache/iceberg-go"
-    "github.com/apache/iceberg-go/catalog"
-    "github.com/apache/iceberg-go/table"
+    "github.com/alexandre-normand/iceberg-go"
+    "github.com/alexandre-normand/iceberg-go/catalog"
+    "github.com/alexandre-normand/iceberg-go/table"
 )
 
 // Create a simple schema
@@ -284,8 +284,8 @@ You can create tables with partitioning:
 
 ```go
 import (
-    "github.com/apache/iceberg-go"
-    "github.com/apache/iceberg-go/catalog"
+    "github.com/alexandre-normand/iceberg-go"
+    "github.com/alexandre-normand/iceberg-go/catalog"
 )
 
 // Create schema

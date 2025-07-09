@@ -146,8 +146,8 @@ The vote will be open for at least 72 hours.
 [ ] +0
 [ ] -1 Do not release this as Apache Iceberg Go v${version} because...
 
-[1]: https://github.com/apache/iceberg-go/tree/${rc_hash}
+[1]: https://github.com/alexandre-normand/iceberg-go/tree/${rc_hash}
 [2]: https://dist.apache.org/repos/dist/dev/iceberg/apache-iceberg-go-${version}-rc${rc}
-[3]: https://github.com/apache/iceberg-go/blob/main/dev/release/README.md#verify
+[3]: https://github.com/alexandre-normand/iceberg-go/blob/main/dev/release/README.md#verify
 MAIL
 echo "---------------------------------------------------------"

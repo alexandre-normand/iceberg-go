@@ -27,14 +27,14 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/alexandre-normand/iceberg-go"
+	"github.com/alexandre-normand/iceberg-go/catalog"
+	"github.com/alexandre-normand/iceberg-go/catalog/sql"
+	"github.com/alexandre-normand/iceberg-go/io"
+	"github.com/alexandre-normand/iceberg-go/table"
 	"github.com/apache/arrow-go/v18/arrow/array"
 	"github.com/apache/arrow-go/v18/arrow/memory"
 	"github.com/apache/arrow-go/v18/parquet/pqarrow"
-	"github.com/apache/iceberg-go"
-	"github.com/apache/iceberg-go/catalog"
-	"github.com/apache/iceberg-go/catalog/sql"
-	"github.com/apache/iceberg-go/io"
-	"github.com/apache/iceberg-go/table"
 	"github.com/stretchr/testify/suite"
 )
 
