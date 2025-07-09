@@ -23,9 +23,9 @@ import (
 
 	"cloud.google.com/go/storage"
 
-	"gocloud.dev/blob"
-	"gocloud.dev/blob/gcsblob"
-	"gocloud.dev/gcp"
+	"github.com/alexandre-normand/go-cloud/blob"
+	"github.com/alexandre-normand/go-cloud/blob/gcsblob"
+	"github.com/alexandre-normand/go-cloud/gcp"
 	"google.golang.org/api/option"
 )
 

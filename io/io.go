@@ -26,8 +26,8 @@ import (
 	"net/url"
 	"strings"
 
-	"gocloud.dev/blob"
-	"gocloud.dev/blob/memblob"
+	"github.com/alexandre-normand/go-cloud/blob"
+	"github.com/alexandre-normand/go-cloud/blob/memblob"
 )
 
 // IO is an interface to a hierarchical file system.

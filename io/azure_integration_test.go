@@ -26,13 +26,13 @@ import (
 
 	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob"
 	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/bloberror"
+	"github.com/alexandre-normand/go-cloud/blob/azureblob"
 	"github.com/alexandre-normand/iceberg-go"
 	"github.com/alexandre-normand/iceberg-go/catalog"
 	sqlcat "github.com/alexandre-normand/iceberg-go/catalog/sql"
 	"github.com/alexandre-normand/iceberg-go/io"
 	"github.com/stretchr/testify/suite"
 	"github.com/uptrace/bun/driver/sqliteshim"
-	"gocloud.dev/blob/azureblob"
 )
 
 const (

@@ -26,6 +26,8 @@ import (
 	"slices"
 	"strconv"
 
+	"github.com/alexandre-normand/go-cloud/blob"
+	"github.com/alexandre-normand/go-cloud/blob/s3blob"
 	"github.com/alexandre-normand/iceberg-go/utils"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	awshttp "github.com/aws/aws-sdk-go-v2/aws/transport/http"
@@ -33,8 +35,6 @@ import (
 	"github.com/aws/aws-sdk-go-v2/credentials"
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 	"github.com/aws/smithy-go/auth/bearer"
-	"gocloud.dev/blob"
-	"gocloud.dev/blob/s3blob"
 )
 
 // Constants for S3 configuration options
